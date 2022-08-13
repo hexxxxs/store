@@ -1,0 +1,194 @@
+/* all text */
+
+
+* {
+    font-family: "Montserrat Alternates", sans-serif;
+    margin : 0 ;
+    paddong : 0 ;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* end all text */
+  
+  }
+  
+  .nav-item a:hover {
+    color: rgb(0, 255, 157);
+  }
+  .card-img-overlay a:hover {
+    color: #c4a6a6;
+  }
+  
+  .card-body a {
+    color: #000;
+  }
+  
+  .menu a:hover {
+    color: #a3ccba;
+  }
+  
+  /* carousel lengkung */
+  .lengkung {
+    border-radius: 10px;
+  }
+  /* carousel lengkung end */
+  h3 {
+  }
+  
+  .kategori-produk {
+    text-decoration: none;
+    color: #7b5304;
+  }
+  
+  .ulasan {
+    color: #a3ccba;
+  }
+  
+  .ulasan a:hover {
+    color: #e19f01;
+  }
+  .card {
+    border-radius: 30px;
+  }
+  .img-thumbnail {
+    padding: 23px;
+  }
+  
+  h5 {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .border-success {
+    height: 42px;
+    width: 667px;
+  }
+  
+  .text-login {
+    color: #white;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  
+  .text-navbar-beranda {
+    color: #5a4343;
+    margin-top: 7px;
+  }
+  
+  .text-produk-barang {
+    font-family: "Poppins", sans-serif;
+    color: #7b5304;
+    font-weight: 700;
+  }
+  .text-produk-barang:hover {
+    color: #e19f01;
+  }
+  
+  .border-secondary {
+    height: 500px;
+    width: 500px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menu {
+    border-right: 1px dashed #7b5304;
+    letter-spacing: 3px;
+    height: 30px;
+    width: 10px;
+    font-size: 15px;
+  }
+  .menu1 {
+    letter-spacing: 3px;
+    height: 30px;
+    width: 20px;
+    font-size: 15px;
+  }
+  
+  .inner {
+    overflow: hidden;
+  }
+  
+  .inner img {
+    transition: all 1s ease;
+  }
+  
+  .inner:hover img {
+    transform: scale(1.3);
+  }
+  
+  .nama-menu {
+    font-family: "Poppins", sans-serif;
+    color: #7b5304;
+    font-weight: 700;
+  }
+  
+  
+  .card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow : hidden;
+  }
+  .card-menu:hover {
+    color: #e3e3e3;
+  }
+  
+  .arrow{
+    margin-top:56px;
+  }
+
+
+  .card-body{
+    height:8rem;
+    overflow : auto;
+  }
+
+  :root {
+    --cursor-size: 28px;
+    --bg: #faf7ee;
+  }
+
+  .page-wrap {
+    background: var(--bg);
+    min-height: 100vh;
+  }
+
+  #cursor {
+    position: fixed;
+    top: calc(var(--cursor-size) * -0.5);
+    left: calc(var(--cursor-size) * -0.5);
+    pointer-events: none;
+    mix-blend-mode: difference;
+    filter: url(#goo);
+  }
+
+  .cursor-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--cursor-size);
+    height: var(--cursor-size);
+    border-radius: var(--cursor-size);
+    background: var(--bg);
+    transform-origin: center center;
+  }
+
+  body {
+    overflow-x: hidden;
+    /*   cursor: none; */
+  }
+
+
+
+  .goo {
+    display: none;
+  }

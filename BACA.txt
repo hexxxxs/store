@@ -1,0 +1,19 @@
+cara make
+
+buat database dengan nama db_allstore
+kalo udah
+import pake file sql ni,kalo nggak tau cara import 
+google jangan manja
+nah udah kelar
+
+gitu doang?
+ya emang
+
+habistu 
+
+
+ketik di url
+
+http://localhost/ALLSTOREFINAL/login.php
+
+
